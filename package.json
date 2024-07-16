@@ -42,7 +42,8 @@
     "@stdlib/complex-float32-ctor": "^0.0.1",
     "@stdlib/complex-float32-reim": "github:stdlib-js/complex-float32-reim#main",
     "@stdlib/number-float32-base-assert-is-same-value-zero": "^0.1.1",
-    "@stdlib/utils-library-manifest": "^0.2.1"
+    "@stdlib/utils-library-manifest": "^0.2.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.1",
