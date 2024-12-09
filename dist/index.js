@@ -1,28 +1,5 @@
+"use strict";var m=function(e,r){return function(){return r||e((r={exports:{}}).exports,r),r.exports}};var v=m(function(c,u){
+var s=require('@stdlib/number-float32-base-assert-is-same-value-zero/dist'),t=require('@stdlib/complex-float32-reim/dist');function n(e,r){var a=t(e),i=t(r);return s(a[0],i[0])&&s(a[1],i[1])}u.exports=n
+});var o=v();module.exports=o;
 /** @license Apache-2.0 */
-
-'use strict';
-
-/**
-* Test whether two single-precision complex floating-point numbers are the same value.
-*
-* @module @stdlib/complex-float32-base-assert-is-same-value-zero
-*
-* @example
-* var Complex64 = require( '@stdlib/complex-float32-ctor' );
-* var isSameValueZerof = require( '@stdlib/complex-float32-base-assert-is-same-value-zero' );
-*
-* var z1 = new Complex64( 5.0, 3.0 );
-* var z2 = new Complex64( 5.0, 3.0 );
-*
-* var v = isSameValueZerof( z1, z2 );
-* // returns true
-*/
-
-// MODULES //
-
-var main = require( './main.js' );
-
-
-// EXPORTS //
-
-module.exports = main;
+//# sourceMappingURL=index.js.map
