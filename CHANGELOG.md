@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2025-12-18)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`ed084b9`](https://github.com/stdlib-js/stdlib/commit/ed084b9112e1fc708074b29fcb63bbc31cdfaf09) - **chore:** rename variables _(by Athan Reines)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Athan Reines
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.0.1">
 
 ## 0.0.1 (2024-07-28)

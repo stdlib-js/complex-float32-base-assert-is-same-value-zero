@@ -29,7 +29,7 @@ limitations under the License.
   <p>To join us in bringing numerical computing to the web, get started by checking us out on <a href="https://github.com/stdlib-js/stdlib">GitHub</a>, and please consider <a href="https://opencollective.com/stdlib">financially supporting stdlib</a>. We greatly appreciate your continued support!</p>
 </details>
 
-# isSameValueZerof
+# isSameValueZero
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
@@ -70,10 +70,10 @@ To view installation and usage instructions specific to each branch build, be su
 ## Usage
 
 ```javascript
-var isSameValueZerof = require( '@stdlib/complex-float32-base-assert-is-same-value-zero' );
+var isSameValueZero = require( '@stdlib/complex-float32-base-assert-is-same-value-zero' );
 ```
 
-#### isSameValueZerof( z1, z2 )
+#### isSameValueZero( z1, z2 )
 
 Tests whether two single-precision complex floating-point numbers are the same value.
 
@@ -83,7 +83,7 @@ var Complex64 = require( '@stdlib/complex-float32-ctor' );
 var z1 = new Complex64( 5.0, 3.0 );
 var z2 = new Complex64( 5.0, 3.0 );
 
-var out = isSameValueZerof( z1, z2 );
+var out = isSameValueZero( z1, z2 );
 // returns true
 ```
 
@@ -95,7 +95,7 @@ var Complex64 = require( '@stdlib/complex-float32-ctor' );
 var z1 = new Complex64( NaN, NaN );
 var z2 = new Complex64( NaN, NaN );
 
-var out = isSameValueZerof( z1, z2 );
+var out = isSameValueZero( z1, z2 );
 // returns true
 ```
 
@@ -107,7 +107,7 @@ var Complex64 = require( '@stdlib/complex-float32-ctor' );
 var z1 = new Complex64( -0.0, 0.0 );
 var z2 = new Complex64( 0.0, -0.0 );
 
-var out = isSameValueZerof( z1, z2 );
+var out = isSameValueZero( z1, z2 );
 // returns true
 ```
 
@@ -133,21 +133,21 @@ var out = isSameValueZerof( z1, z2 );
 
 ```javascript
 var Complex64 = require( '@stdlib/complex-float32-ctor' );
-var isSameValueZerof = require( '@stdlib/complex-float32-base-assert-is-same-value-zero' );
+var isSameValueZero = require( '@stdlib/complex-float32-base-assert-is-same-value-zero' );
 
 var z1 = new Complex64( 5.0, 3.0 );
 var z2 = new Complex64( 5.0, 3.0 );
-var out = isSameValueZerof( z1, z2 );
+var out = isSameValueZero( z1, z2 );
 // returns true
 
 z1 = new Complex64( -5.0, -3.0 );
 z2 = new Complex64( 5.0, 3.0 );
-out = isSameValueZerof( z1, z2 );
+out = isSameValueZero( z1, z2 );
 // returns false
 
 z1 = new Complex64( NaN, 3.0 );
 z2 = new Complex64( NaN, 3.0 );
-out = isSameValueZerof( z1, z2 );
+out = isSameValueZero( z1, z2 );
 // returns true
 ```
 
