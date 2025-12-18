@@ -6,12 +6,23 @@
 
 ## Unreleased (2025-12-18)
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`668e314`](https://github.com/stdlib-js/stdlib/commit/668e3142881cad00228c2931daa527525c71b000) - use interface rather than class definition
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`668e314`](https://github.com/stdlib-js/stdlib/commit/668e3142881cad00228c2931daa527525c71b000) - **fix:** use interface rather than class definition _(by Athan Reines)_
 -   [`ed084b9`](https://github.com/stdlib-js/stdlib/commit/ed084b9112e1fc708074b29fcb63bbc31cdfaf09) - **chore:** rename variables _(by Athan Reines)_
 
 </details>
