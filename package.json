@@ -43,7 +43,8 @@
     "@stdlib/complex-float32-reim": "^0.1.2",
     "@stdlib/number-float32-base-assert-is-same-value-zero": "^0.2.1",
     "@stdlib/types": "^0.4.3",
-    "@stdlib/utils-library-manifest": "^0.2.2"
+    "@stdlib/utils-library-manifest": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-boolean": "^0.2.2",
