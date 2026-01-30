@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isSameValueZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-base-assert-is-same-value-zero@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/complex-float32-base-assert-is-same-value-zero/tags). For example,
+
+```javascript
 import isSameValueZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-base-assert-is-same-value-zero@v0.1.0-deno/mod.js';
 ```
 
@@ -115,7 +120,7 @@ var out = isSameValueZero( z1, z2 );
 
 ```javascript
 import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@deno/mod.js';
-import isSameValueZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-base-assert-is-same-value-zero@v0.1.0-deno/mod.js';
+import isSameValueZero from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-base-assert-is-same-value-zero@deno/mod.js';
 
 var z1 = new Complex64( 5.0, 3.0 );
 var z2 = new Complex64( 5.0, 3.0 );
