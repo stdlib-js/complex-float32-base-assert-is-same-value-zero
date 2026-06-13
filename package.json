@@ -42,7 +42,7 @@
     "@stdlib/complex-float32-ctor": "^0.1.1",
     "@stdlib/complex-float32-reim": "^0.1.4",
     "@stdlib/number-float32-base-assert-is-same-value-zero": "^0.2.2",
-    "@stdlib/types": "^0.4.3",
+    "@stdlib/types": "^0.5.1",
     "@stdlib/utils-library-manifest": "^0.2.4"
   },
   "devDependencies": {
